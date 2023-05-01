@@ -5,14 +5,22 @@ public class Employee {
     String fullName;
 
     public Employee(String fname, String lname, int id) {
+        employeeId = id;
         firstName = fname;
         lastName = lname;
-        fullName = this.getFullName(fname, lname);
-        employeeId = id;
+        this.setFullName(fname, lname);
     }
 
-    public String getFullName(String fname, String lname) {
-        return fname + " " + lname;
+    public void setFullName(String fname, String lname) {
+        this.fullName = fname + " " + lname;
+    }
+
+    public String getFullName() {
+        return this.fullName;
+    }
+
+    public int getId() {
+        return this.employeeId;
     }
 
     public static void main(String[] args) {
