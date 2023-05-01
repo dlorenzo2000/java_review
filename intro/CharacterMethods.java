@@ -1,8 +1,8 @@
-
 /*
  * Mon May 1, 2023 0859hrs
  * Chapter 3, Page 146
  */
+
 import java.util.Scanner;
 
 public class CharacterMethods {
