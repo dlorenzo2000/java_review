@@ -1,8 +1,8 @@
 public class Employee {
-    int employeeId;
-    String firstName;
-    String lastName;
-    String fullName;
+    private int employeeId;
+    private String firstName;
+    private String lastName;
+    private String fullName;
 
     public Employee(String fname, String lname, int id) {
         employeeId = id;
@@ -25,6 +25,6 @@ public class Employee {
 
     public static void main(String[] args) {
         Employee emp1 = new Employee("Tom", "Jones", 1);
-        System.out.println("Fullname: " + emp1.fullName + "\n" + "id: " + emp1.employeeId);
+        System.out.println("Fullname: " + emp1.fullName + "\n" + "ID: " + emp1.employeeId);
     }
 }
