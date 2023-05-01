@@ -5,9 +5,9 @@ public class Employee {
     private String fullName;
 
     public Employee(String fname, String lname, int id) {
-        employeeId = id;
-        firstName = fname;
-        lastName = lname;
+        this.employeeId = id;
+        this.firstName = fname;
+        this.lastName = lname;
         this.setFullName(fname, lname);
     }
 
