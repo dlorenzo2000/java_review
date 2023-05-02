@@ -1,5 +1,3 @@
-import javax.swing.plaf.synth.SynthTreeUI;
-
 public class Employee {
     private int employeeId;
     private String firstName;
