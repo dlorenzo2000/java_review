@@ -1,3 +1,5 @@
+import javax.swing.plaf.synth.SynthTreeUI;
+
 public class Employee {
     private int employeeId;
     private String firstName;
@@ -26,5 +28,23 @@ public class Employee {
     public static void main(String[] args) {
         Employee emp1 = new Employee("Tom", "Jones", 1);
         System.out.println("Fullname: " + emp1.fullName + "\n" + "ID: " + emp1.employeeId);
+    }
+}
+
+class Animal {
+    public void animalSound() {
+        System.out.println("Animal sound.");
+    }
+}
+
+class Dog extends Animal {
+    public void animalSound() {
+        System.out.println("Dog says woof.");
+    }
+}
+
+class Cat extends Animal {
+    public void animalSound() {
+        System.out.println("Cat says meow.");
     }
 }
